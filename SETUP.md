@@ -50,10 +50,10 @@ ndenv install
 今回は作り慣れている react / redux で作成予定だが、しばらくフロントエンドを離れていることもあって変わった部分も多々あると思われるので、 [https://ja.reactjs.org/docs/create-a-new-react-app.html](https://ja.reactjs.org/docs/create-a-new-react-app.html) を参考に進める
 
 ```zsh
-npx create-react-app a-bit-close-project --template typescript
-mv -f a-bit-close-project/* .
-mv a-bit-close-project/.gitignore .
-rm -rf a-bit-close-project
+npx create-react-app mystery-a-bit-close-project --template typescript
+mv -f mystery-a-bit-close-project/* .
+mv mystery-a-bit-close-project/.gitignore .
+rm -rf mysterya-bit-close-project
 ```
 
 ## 動作確認
