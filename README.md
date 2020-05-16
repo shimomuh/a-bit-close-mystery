@@ -1,3 +1,3 @@
-# mystery - a bit close project
+# a bit close mystery
 
 ![](doc/images/logo320x320.png)
