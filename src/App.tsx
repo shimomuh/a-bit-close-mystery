@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div className="app">
+      <header>
+        <a href="/">
+          <h1 className="appHeader">
+            アビクロ<span className="appHeaderLogo">謎</span>解き
+          </h1>
         </a>
       </header>
+      <h2>謎解き一覧</h2>
+      <p>
+        Comming Soon...
+      </p>
+      <footer>
+        Copyright &copy; 2020 <a className="author" href="https://twitter.com/shimomuh">@shimomuh</a>. All Rights Reserved.
+      </footer>
     </div>
   );
 }
