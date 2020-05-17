@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "アビクロ",
+  "name": "a bit close mystery",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "images/common/2c45aDb-favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "images/common/D10Fe6F-logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "images/common/0cFb1de-logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

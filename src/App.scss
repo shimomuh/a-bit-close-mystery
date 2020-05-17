@@ -1,0 +1,32 @@
+header {
+  a {
+    text-decoration: none;
+  }
+}
+header, footer {
+  a {
+    color: inherit;
+  }
+}
+.app {
+  text-align: center;
+  &Header {
+    &Logo {
+      color: transparent;
+      position: relative;
+      &::before {
+        background-image: url(images/logo320x320.png);
+        background-size: 2rem 2rem;
+        width: 2rem;
+        height: 2rem;
+        background-position: 0 0;
+        margin-top: 0.5rem;
+        background-repeat: none;
+        display: inline-block;
+        position: absolute;
+        content: '';
+      }
+    }
+  }
+}
+
