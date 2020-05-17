@@ -1,0 +1,64 @@
+@import './Variables';
+
+body {
+  margin: 0 0.5rem;
+  font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+  color: $black;
+}
+
+header {
+  a {
+    text-decoration: none;
+    .headerLogo {
+      color: transparent;
+      position: relative;
+      &::before {
+        background-image: url(../images/base/logo320x320.png);
+        background-size: 2rem 2rem;
+        width: 2rem;
+        height: 2rem;
+        background-position: 0 0;
+        margin-top: 0.5rem;
+        background-repeat: none;
+        display: inline-block;
+        position: absolute;
+        content: '';
+      }
+    }
+    h1 {
+      position: relative;
+      &::before, &::after {
+        position: absolute;
+        content: '';
+        display: inline-block;
+      }
+      &::before {
+        background-image: url(../images/base/question-mark-head.png);
+        background-size: 24px 32px;
+        height: 32px;
+        width: 24px;
+        top: 0.6rem;
+        margin-left: -1.6rem;
+      }
+      &::after {
+        background-image: url(../images/base/question-mark-tail.png);
+        background-size: 36px 48px;
+        height: 48px;
+        width: 36px;
+        top: 0;
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+footer {
+  margin: 4rem 2rem;
+}
+
+header, footer {
+  text-align: center;
+  a {
+    color: inherit;
+  }
+}
